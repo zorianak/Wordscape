@@ -1,0 +1,466 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background: #EFECE4 url(images/bodybg.gif) repeat-x top center;
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Geneva, sans-serif;
+    font-size: 85%;
+}
+
+a {
+	text-decoration: none;
+	color: #336666;
+	border-bottom: 1px dotted #fff;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	background: url(images/listtick.png);
+	background-repeat: no-repeat;
+	background-position: 0 .5em;
+	padding-left: 1em;
+    margin: .4em 0;
+}
+
+a img {
+	border: none;	
+}
+
+a:hover {
+	color: #A22C0E;
+	border-bottom: 1px dotted #A22C0E;
+}
+
+a:focus {
+	outline: 0;	
+}
+
+
+.clear {
+	clear: both;	
+}
+
+.holder {
+	width: 987px;
+	margin: 0 auto 0 auto;
+	position: relative;
+	z-index: 3;
+}
+
+.twocol {
+	width: 480px;
+	float: left;
+}
+
+.threecol {
+	width: 297px;
+	float: left;
+	padding: 0em .5em 0em .5em;
+}
+
+
+
+#nav {
+	background-color: #2A3748;
+    padding: 1em;	
+}
+
+#nav img {
+	float:left;	
+}
+
+#nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    width: 28em;
+    float:right;
+}
+
+#nav li {
+	display: block;
+	float:left;
+	padding: 0;
+	background: none;
+}
+
+#nav li ul li { 
+	position: relative; 
+	background: #2A3748; 
+	float: none;
+}
+
+#nav li a{
+	color: #fff;
+	border-bottom: #2A3748 1px dotted;
+	display: block;
+	margin: 0em;
+	padding: 1.5em 1em 1.5em 1em;
+	font-size: 120%;
+	text-decoration: none;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+
+#nav li a:hover {
+	text-decoration: none;
+	background: #5B6D7F;
+}
+
+#nav ul li ul{ 
+	position: absolute; 
+	display: block; 
+	border: 2px solid #2A3748; 
+	z-index: 3; 
+	background: #5B6D7F; 
+	display: none;  
+	list-style-type: none;
+	padding: 0;
+
+}
+
+#nav ul li ul li a {
+	padding: .2em;
+	margin: 0;
+}
+
+#nav ul li ul li a:hover {
+	background: #2A3748;
+}
+	
+#nav li:hover ul, #nav li ul:hover { 
+	display: inline;
+	background: #5B6D7F;
+ }
+ 
+ #nav span { display: none }
+#nav .over { text-indent: -999em }
+#nav .over em { background-image: none } 
+
+#content {
+	background: url(images/holderbg.png) repeat-y top center;
+	padding: 0 20px 0 20px;
+	margin: -1px 0 0 0;
+	
+}
+
+.top {
+	height: 20px;
+	width: 987px;
+	background: url(images/top.png);
+	padding: 0;
+}
+
+.bottom {
+	height: 20px;
+	width: 987px;
+	background: url(images/bottom.png);
+	padding: 0;
+}
+
+.firstheading {
+	font-size: 120%;	
+	color: #fff;
+}
+
+.taglines {
+	background: url(images/taglinesbg.jpg) no-repeat top center;
+	color: #fff;
+	font-size: 90%;
+	margin: 0 auto 0 auto;
+	padding: 20px;
+	width: 903px;
+}
+
+.taglines a {
+	color: #fff;	
+}
+
+.taglines a:hover {
+	color: #ccc;	
+}
+
+.openingline {
+	font-size: 140%;
+	margin-top: .1em;
+	text-align: center;
+}
+
+.taglines .threecol {
+	float: left;
+	padding: 10px;
+	width: 280px;
+}
+
+
+
+.secondheading {
+	font-size: 120%;
+	font-weight: normal;
+}
+
+.mywork {
+    width: 150px;
+    margin: 3em auto 0 auto;
+}
+
+
+
+.ribbon {
+	background: url(images/ribbonbg.gif) repeat-x top center;
+	color: #fff;
+	clear: both;
+	height: 55px;
+	margin-left: -23px;
+	padding: 0em 20px 0 1em;
+	width: 960px;
+}
+
+.ribbon h2 {
+	font-size: 110%;
+	padding: .3em 0 0 0;
+	margin: 10px 0px 6px 10px;
+	width: 297px;
+	float: left;
+
+}
+
+.siteinfo {
+	margin: 1em 0 0 0;
+    padding: 0 0em 1em 0;	
+}
+
+.siteinfo li {
+	margin: .6em 0;
+}
+
+.leftfold {
+	margin: 14px 0 0 -13px;
+	float: left;
+}
+
+.rightfold {
+	margin-top: 14px;
+	float: right;
+	margin-right: -20px;
+}
+
+.blogpostsfront {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.blogpostsfront h3 {
+    border-bottom: none;
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+.blogpostsfront li {
+	padding: 0;
+	background: none;
+    margin-bottom: 1.5em;
+}
+
+.blogpostsfront img {
+	float: left;
+	margin: 5px;
+}
+
+.learnmore {
+	padding: 1.5em;	
+}
+
+.latesttweetsfront {
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.latesttweetsfront ul {
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.latesttweetsfront a {
+	color: #fff;
+	border-bottom: 1px dotted #2E466C;
+}
+
+.latesttweetsfront li {
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	background: #2E466C;
+	padding: .5em;
+}
+
+#footer {
+	color: #fff;
+	width: 100%;
+	background: #304569;
+	padding: 1em;
+	margin-top: -25px;
+	position: relative;
+	z-index: 1;
+}
+
+#footer a {
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 1px dotted #304569;
+}
+
+#footer a:hover {
+	color: #ccc;
+	border-bottom: 1px dotted #ccc;
+}
+
+.sitemap {
+	padding: 0;
+	margin: 0 auto 0 auto;
+	list-style-type: none;
+	width: 350px;
+	text-align: center;
+}
+
+.sitemap li {
+	float: left;
+	margin: .5em;
+    text-align: center;
+}
+
+.footercontact img {
+	float: left;
+}
+
+
+/* ALL OF THE BLOG CONTENT STYLING GOES HERE */
+
+.blogcontent {
+	width: 644px;
+	float: left;
+	padding: 0 1em;
+}
+
+.blogcontent h3 {
+	border-bottom: 1px dotted #C3D7D7;
+	width: 620px;
+}
+
+.blogcontent h3 a {
+	font-size: 110%;
+	border-bottom: none;
+	style: block;
+}
+
+.chronodata {
+	color: #999;
+	font-size: 80%;
+}
+
+.entryfooting {
+    margin-bottom: 2em;
+}
+
+.storycontent h3 {
+    font-size: 130%;
+    margin-top: 3em;
+    border-bottom: 1px solid #C3D7D7;
+    clear: left;
+}
+
+.addtoany_share_save_container li {
+    background: none;
+    margin-top: 3em;
+}
+
+
+/* SIDEBAR STYLING*/
+
+#sidebar {
+	width: 250px;
+	float: left;
+	padding: 0 .4em;
+	margin: .5em;
+	border-left: 1px dotted #C3D7D7;
+	list-style-type: none;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#sidebar li {
+	padding: 0;
+	background: none;
+}
+
+#sidebar h2 {
+	background: #304569;
+	color: #fff;
+	font-size: 105%;
+	-moz-border-radius: 15px;
+	padding: .4em;
+	-webkit-border-radius: 15px;
+}
+
+#wp-calendar {
+	width: 100%;
+} 
+
+
+/* PORTFOLIO */
+
+#portfolio {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pagecontent {
+	float: left;
+	padding: 0 1em;
+}
+
+#portfolio li {
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+/*WP E COMMERCE */
+
+h2.prodtitles {
+    font-size: 110%;
+}
+
+/* STYLING FOR SERVICE LIST */
+
+ul.servicelist {
+    width: 280px;
+    padding: 10px;
+    float: left;
+}
+
+.servicelist li {
+	margin: .5em;
+}
+
+.servicelist li h2 {
+    background: none;
+    padding: 0;
+    margin: 0;
+    font-size: 120%;
+}
